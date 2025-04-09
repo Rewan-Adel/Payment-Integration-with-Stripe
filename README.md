@@ -13,7 +13,7 @@ This project handles user authentication, payment processing, and Stripe integra
 ## Webhook Events Handled
 - **checkout.session.completed:** Triggered when a payment session is completed successfully. It updates the payment status and stores the payment details in the database.
 - **payment_intent.succeeded:** Triggered when a payment intent is successfully processed.
-- **checkout.session.async_payment_failed:**Triggered when a payment fails asynchronously. It updates the payment status accordingly.
+- **checkout.session.async_payment_failed:** Triggered when a payment fails asynchronously. It updates the payment status accordingly.
 
 ## Database Schema
  # Payment Model
