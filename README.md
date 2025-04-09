@@ -16,7 +16,7 @@ This project handles user authentication, payment processing, and Stripe integra
 - **checkout.session.async_payment_failed:**Triggered when a payment fails asynchronously. It updates the payment status accordingly.
 
 ## Database Schema
-**Payment Model
+ # Payment Model
 - **user:** User ID (reference to the user who made the payment)
 - **payment_intent_id:** The ID from Stripe that identifies the payment intent
 - **amount:** Amount of the payment in USD
