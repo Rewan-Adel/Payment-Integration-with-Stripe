@@ -2,9 +2,9 @@
 This project handles user authentication, payment processing, and Stripe integration for a web application. The service allows users to make payments through Stripe, store their payment history, and handle various Stripe webhook events to manage the payment status in the database
 
 ## Features
-- User Authentication: Manages user token and authentication.
-- Payment History: Allows users to view their payment history.
-- Stripe Integration:
+- **User Authentication:** Manages user token and authentication.
+- **Payment History:** Allows users to view their payment history.
+- **Stripe Integration:**
   - Creates a Stripe session for user payments.
   - Handles the Stripe webhook for payment confirmation and updates the payment status.
   - Saves successful payment information to the database.
