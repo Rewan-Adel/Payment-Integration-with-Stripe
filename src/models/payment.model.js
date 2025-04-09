@@ -16,9 +16,6 @@ const paymentSchema = new mongoose.Schema({
         type: String,
         default: 'usd'
     },
-    country: {
-        type: String
-    },
     cardholder_name: {
         type: String
     },
