@@ -8,7 +8,6 @@ require('dotenv').config();
 const { webhookListen } = require('./controllers/payment.controller');
 
 const userRouter    = require('./routes/user.route');
-const homeRouter    = require('./routes/home.route');
 const paymentRouter = require('./routes/payment.route');
 
 const app = express();
@@ -26,8 +25,7 @@ app.use('/webhook', bodyParser.raw({type: 'application/json'}), webhookListen);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 
-app.use('/',        userRouter);
-app.use('/home',    homeRouter);
+app.use('/auth',    userRouter);
 app.use('/payment', paymentRouter);
 
 app.use('*', (req, res) => {
