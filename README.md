@@ -29,6 +29,6 @@ This project handles user authentication, payment processing, and Stripe integra
 ## Tech Stack
 - **Node.js:** JavaScript runtime for building the server-side application.
 - **Express.js:** Web framework for handling API routes.
-- **Stripe API:**For handling the payment processing and webhook events.
-- **MongoDB:**Database for storing user and payment information.
+- **Stripe API:** For handling the payment processing and webhook events.
+- **MongoDB:** Database for storing user and payment information.
 
